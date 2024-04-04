@@ -1,0 +1,109 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    margin: 0;
+    margin-bottom: 100px;/* Adiciona margem ao final da página para distanciar o texto do rodapé */
+    padding: 0;
+
+  }
+  
+  /* Estilos para o cabeçalho */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  /* Estilos para a lista de navegação */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  /* Estilos para os itens da lista de navegação */
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  /* Estilos para os links da lista de navegação */
+  nav ul li a {
+    
+    color: #fff;
+    text-decoration: none;
+  }
+  /* Estilos para o contêiner de texto e imagem */
+  .texto-imagem-container {
+    display: flex;
+    align-items: center;
+  }
+  /* Estilos para o texto à esquerda */
+  .texto-esquerda {
+    text-align: left;
+    width: 50%;
+    padding: 20px;
+  }
+  /* Estilos para a imagem à direita */
+  .imagem-direita {
+    width: 28%;
+    border-radius: 10px;
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+    margin-left: 20px; /* Adiciona margem à esquerda para separar a imagem do texto */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+  }
+  /* Estilos para a seção de complemento */
+  .complemento{
+    text-align: left;
+    padding: 20px;
+    padding-bottom: 50px;
+  }
+/* Estilos para o formulário */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+/* Estilos para rótulos do formulário */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+/* Estilos para os campos do formulário */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+/* Estilos para o botão de envio do formulário */
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Estilos para o botão de envio do formulário quando o mouse está sobre ele */
+button:hover {
+  background-color: #555;
+}
+  /* Estilos para o rodapé da página */
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333; /* Cor de fundo para o footer */
+    color: white; /* Cor do texto no footer */
+    text-align: center; /* Alinha o texto ao centro */
+    margin-top: 50px;
+    padding: 1px 0; /* Adiciona espaço interno ao footer */
+  }
+  
