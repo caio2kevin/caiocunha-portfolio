@@ -46,15 +46,16 @@ body {
   }
   /* Estilos para a imagem à direita */
   .imagem-direita {
-    width: 28%;
-    border-radius: 10px;
-    border-bottom: 2px solid black;
-    box-sizing: border-box;
-    margin-left: 20px; /* Adiciona margem à esquerda para separar a imagem do texto */
+    width: 200px; /* Diminui o tamanho da imagem */
+    height: 200px; /* Define a altura da imagem */
+    border-radius: 50%; /* Torna a imagem circular */
+    border: 2px solid #333; /* Adiciona uma nova borda */
+    margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 10px 0;
+    padding: 5px; /* Ajusta o espaço interno da borda */
   }
+  
   /* Estilos para a seção de complemento */
   .complemento{
     text-align: left;
